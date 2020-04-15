@@ -9,7 +9,7 @@ Note that you can also use the environment variables VRA_REFRESH_TOKEN and VRA_U
 */
 
 module vsphere_production {
-  source = "https://github.com/grantorchard/module-vra-cloud-accounts"
+  source = "github.com/grantorchard/module-vra-cloud-account"
 
   name                = "terraform_module_testing"
   data_collector_name = "foo"
